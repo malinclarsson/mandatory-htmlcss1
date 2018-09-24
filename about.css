@@ -2,12 +2,12 @@ body{
   height: 100vh;
 
 }
-/* ----- FONTS ----- *//* ----- KLAR ----- */
+/* ----- FONTS ----- */
 h1{font-family: 'Permanent Marker', cursive;}
 h2, h3, h4, h5, h6, p, ol, ul, li{font-family: 'Architects Daughter', cursive;}
 header a{font-family: 'Permanent Marker', cursive;}
 
-/* ----- BANNER ----- *//* ----- KLAR ----- */
+/* ----- BANNER ----- */
 header{
   background-color: #FDBFD2;
   color: grey;
@@ -29,7 +29,7 @@ h1{
    justify-content: center;
   z-index 1
 }
-/* ----- NAVIGATION ----- *//* ----- KLAR ----- */
+/* ----- NAVIGATION ----- */
 
 /* ----- VILKEN SIDA VI ÄR PÅ----- */
 #about{ background-color: lightgrey;}
@@ -42,7 +42,7 @@ button{
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
   font-size: 20px;
 }
-/* -----  HOVER ----- *//* ----- KLAR ----- */
+/* -----  HOVER ----- */
 header a {  outline: none; text-decoration: none;}
 header a:link {color: grey;}
 header a:visited {color: darkgrey;}
@@ -69,7 +69,6 @@ main{
   margin-right: 10%;
   margin-bottom: 5%;
 }
-
 img{
   position: fixed;
   padding:0;
@@ -85,11 +84,10 @@ h2{
   border: 0;
   position: relative;
 }
-h3{top: 55%; font-size: 20px;}
+h3{top: 55%; font-size: 30px;}
 ol{top: 55%; font-size: 15px;}
-/* -----                 SLUT PÅ MAIN-INNEHÅLLET                   ----- */
 
-/* ----- FOOTER ----- *//* ----- KLAR ----- */
+/* ----- FOOTER ----- */
 footer{
   background-color: #FDBFD2;
   width: 100%;
@@ -106,7 +104,7 @@ footer{
     justify-content: space-around;
     align-items: flex-end;
 }
-/* ----- SOCIALA MEDIER ----- *//* ----- KLAR ----- */
+/* ----- SOCIALA MEDIER ----- */
 .icons{
   margin: 20px;
   letter-spacing: 30px;

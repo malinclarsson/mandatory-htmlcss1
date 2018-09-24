@@ -72,7 +72,7 @@ main{
 #welcome{
    margin-top: 0;
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 30px;
 }
 #fonetic{
   font-size: 20px;
@@ -86,7 +86,7 @@ h4{
 p, li{font-size: 15px;}
 }
 
-/* ----- FOOTER ----- *//* ----- KLAR ----- */
+/* ----- FOOTER ----- */
 footer{
   background-color: #FDBFD2;
   width: 100%;

@@ -1,12 +1,12 @@
 body{
   height: 100vh;
 }
-/* ----- FONTS ----- *//* ----- KLAR ----- */
+/* ----- FONTS ----- */
 h1{font-family: 'Permanent Marker', cursive;}
 h2, h3, h4, h5, h6, p, ol, ul, li, tr {font-family: 'Architects Daughter', cursive;}
 header a{font-family: 'Permanent Marker', cursive;}
 
-/* ----- BANNER ----- *//* ----- KLAR ----- */
+/* ----- BANNER ----- *//
 header{
   background-color: #FDBFD2;
   color: grey;
@@ -28,7 +28,7 @@ h1{
    justify-content: center;
   z-index 1
 }
-/* ----- NAVIGATION ----- *//* ----- KLAR ----- */
+/* ----- NAVIGATION ----- */
 
 /* ----- VILKEN SIDA VI ÄR PÅ----- */
 #movies{ background-color: lightgrey;}
@@ -41,7 +41,7 @@ button{
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
   font-size: 20px;
 }
-/* -----  HOVER ----- *//* ----- KLAR ----- */
+/* -----  HOVER ----- */
 header a {  outline: none; text-decoration: none;}
 header a:link {color: grey;}
 header a:visited {color: darkgrey;}
@@ -64,18 +64,15 @@ header a:active {color: darkgrey;}
 /* ----- MAIN CONTENT----- */
 main{
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-right: 10%;
   margin-bottom: 5%;
 }
-
-
 body{
-
   font-family: sans-serif;
 }
 #fav{
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 35%;
 }
 thead{
@@ -116,9 +113,7 @@ tbody tr:nth-child(2n+1){
 #imdb{width: 40px; position: absolute;}
 
 
-/* -----                 SLUT PÅ MAIN-INNEHÅLLET                   ----- */
-
-/* ----- FOOTER ----- *//* ----- KLAR ----- */
+/* ----- FOOTER ----- */
 footer{
   background-color: #FDBFD2;
   width: 100%;
@@ -135,7 +130,7 @@ footer{
     justify-content: space-around;
     align-items: flex-end;
 }
-/* ----- SOCIALA MEDIER ----- *//* ----- KLAR ----- */
+/* ----- SOCIALA MEDIER ----- */
 .icons{
   margin: 20px;
   letter-spacing: 30px;

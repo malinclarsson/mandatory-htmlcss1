@@ -22,32 +22,20 @@
        </navigation>
     </header>
 
-
-
-
-
-
     <main class="main">
 
-   <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>formulär</title>
-  </head>
-  <body>
         <form action="" metod="get">
         <fieldset>
           <legend>Tell me something about yourself</legend>
               <br>
                 <label for="name"<abbr title="This field is mandatory">*</abbr>Name:</label>
                   <input type="text" name="namn:" placeholder="Name"
-                         required pattern="[A-Öa-ö]"  minlength="3" maxlength="20">
+                         required pattern="[a-zåäöA-ZÅÄÖ]{}"  minlength="2" maxlength="30">
               <br>
               <br>
                 <label for="email"<abbr title="This field is mandatory">*</abbr>Email:</label>
                   <input type="email" name="email:" placeholder="Email"
-                         required pattern="minlength="7" maxlength="40">
+                         required pattern="[a-zåäöA-ZÅÄÖ][0-9]{}"  minlength="5" maxlength="30">
               <br>
               <br>
                 <label for="subject"<abbr title="This field is mandatory">*</abbr>Subject:</label>
@@ -70,18 +58,8 @@
                <input type="submit" value="Yay!">
         </fieldset>
       </form>
-  </body>
-</html>
-
-
 
     </main>
-
-
-
-
-
-
 
     <footer class="foot">
       <div class="icons">
