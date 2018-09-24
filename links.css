@@ -1,0 +1,134 @@
+body{
+  height: 100vh;
+}
+/* ----- FONTS ----- *//* ----- KLAR ----- */
+h1{font-family: 'Permanent Marker', cursive;}
+h2, h3, h4, p, ol, ul, li{font-family: 'Architects Daughter', cursive;}
+header a{font-family: 'Permanent Marker', cursive;}
+
+/* ----- BANNER ----- *//* ----- KLAR ----- */
+header{
+  background-color: #FDBFD2;
+  color: grey;
+  width: 100%;
+  hight: 40%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-style: italic;
+  position: absolute;
+  text-align: center;
+  position: relative;
+}
+h1{
+  margin: 0;
+  margin-bottom:3%;
+  font-size: 50px;
+  display: flex;
+   justify-content: center;
+  z-index 1
+}
+/* ----- NAVIGATION ----- *//* ----- KLAR ----- */
+
+/* ----- VILKEN SIDA VI ÄR PÅ----- */
+#links{ background-color: lightgrey;}
+
+button{
+  background-color: white;
+  height: 45px;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+  font-size: 20px;
+}
+/* -----  HOVER ----- *//* ----- KLAR ----- */
+header a {  outline: none; text-decoration: none;}
+header a:link {color: grey;}
+header a:visited {color: darkgrey;}
+header a:focus {}
+header a:hover {font-weight: bolder; color: darkgrey;}
+header a:active {color: darkgrey;}
+
+.links{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0;
+  font-size: 50px;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-end;
+  word-spacing: 10px;
+}
+
+/* ----- MAIN CONTENT----- */
+main{
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+
+h3{font-size: 20px;}
+
+main a { outline: none; text-decoration: none;}
+main  a:link {color: grey;}
+main  a:visited {color: darkgrey;}
+main  a:focus {}
+main  a:hover {font-weight: bolder; color: darkgrey;}
+main  a:active {color: darkgrey;}
+
+li{
+  list-style: circle;
+  font-size: 15px;
+}
+
+/* -----                 SLUT PÅ MAIN-INNEHÅLLET                   ----- */
+
+/* ----- FOOTER ----- *//* ----- KLAR ----- */
+footer{
+  background-color: #FDBFD2;
+  width: 100%;
+  hight: 450px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+  color: grey;
+  display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+/* ----- SOCIALA MEDIER ----- *//* ----- KLAR ----- */
+.icons{
+  margin: 20px;
+  letter-spacing: 30px;
+}
+footer a {  outline: none; text-decoration: none;}
+footer a:link {color: grey;}
+footer a:visited {color: grey;}
+footer a:focus {}
+footer a:hover {font-weight bolder; color: darkgrey;}
+footer a:active {color: darkgrey;}
+
+#info{
+ font-style: normal;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+#info a {  outline: none; text-decoration: none;}
+#info  a:link {color: grey;}
+#info  a:visited {color: darkgrey;}
+#info  a:focus {}
+#info  a:hover {font-weight: bolder; color: darkgrey;}
+#info  a:active {color: darkgrey;}
+
+#trademark{
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
